@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <section className="w-full h-full">
       <Navbar />
-      <HomePage />
-      <Products />
-      <About />
-      <Offer />
-      <EcoFriendly />
-      <Contact />
+      <div id="homePage"><HomePage /></div>
+      <div id="about"><About /></div>
+      <div id="product"><Products /></div>
+      <div id="offer"><Offer /></div>
+      <div id="ecofriendly"><EcoFriendly /></div>
+      <div id="contact"><Contact /></div>
     </section>
   );
 }

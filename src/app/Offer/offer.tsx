@@ -12,7 +12,7 @@ const Offer = () => {
                     <div className='flex items-center h-[20%] pt-12 xs:flex-col '>
                         <div className='w-[90%]'>
                             <div className='font-yellow-tail text-[#68A47F] text-[28px] py-4 xs:text-[18px] xs:py-2'>About Us</div>
-                            <div className='text-[32px] font-extrabold text-white  xs:text-[24px]'>We Offer Organic For You</div>
+                            <div className='text-[32px] font-extrabold text-white  xs:text-[24px]'>We Offer Organic Products For You</div>
                         </div>
                         <div className="w-[40%] xs:pt-2">
                             <div>

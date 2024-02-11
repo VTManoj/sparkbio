@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import Logo from "../../../public/sparkBio.png"
+import Link from 'next/link';
 const Navbar = () => {
     return (
         <nav className='h-16 w-full bg-white fixed top-0 flex'>
@@ -9,11 +10,12 @@ const Navbar = () => {
                 <div className='pl-4 font-extrabold text-3xl'>SparkBio</div>
             </div>
             <div className='w-[50%] flex justify-evenly items-center font-semibold xs:hidden md:w-[70%]'>
-                <div className='cursor-pointer'>Home</div>
-                <div className='cursor-pointer'>About</div>
-                <div className='cursor-pointer'>Our Products</div>
-                <div className='cursor-pointer'>Eco Friendly</div>
-                <div className='cursor-pointer'>Contact Us</div>
+                <div className='cursor-pointer'><Link href="#homePage">Home</Link></div>
+                <div className='cursor-pointer'><Link href="#about">About</Link></div>
+                <div className='cursor-pointer'><Link href="#product">Our Products</Link></div>
+                <div className='cursor-pointer'><Link href="#offer">Offers</Link></div>
+                <div className='cursor-pointer'><Link href="#ecofriendly">Eco Friendly</Link></div>
+                <div className='cursor-pointer'><Link href="#contact">Contact Us</Link></div>
             </div>
         </nav>
     )

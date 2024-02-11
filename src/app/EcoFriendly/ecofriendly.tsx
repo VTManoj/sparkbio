@@ -12,18 +12,18 @@ const EcoFriendly = () => {
                                 Organic Store
                             </div>
                             <div className='pt-6 pb-4 xs:pt-3 xs:pb-4'>
-                                <h2 className='font-bold text-xl xs:text-lg'>Start with Our Company First</h2>
-                                <p className='xs:text-sm'>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                                <h2 className='font-bold text-xl xs:text-lg'>Sustainable Sourcing</h2>
+                                <p className='xs:text-sm'>Our company prioritizes eco-friendly practices by sourcing materials responsibly, minimizing environmental impact, and supporting fair trade initiatives for a greener supply chain.
                                 </p>
                             </div>
                             <div className=' pb-4  xs:pb-4'>
-                                <h2 className='font-bold text-xl xs:text-lg'>Start with Our Company First</h2>
-                                <p className='xs:text-sm'>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                                <h2 className='font-bold text-xl xs:text-lg'>Packaging Innovation</h2>
+                                <p className='xs:text-sm'>We reduce waste by utilizing eco-conscious packaging materials, such as recyclable, biodegradable, or compostable options, ensuring that our products are delivered sustainably.
                                 </p>
                             </div>
                             <div >
-                                <h2 className='font-bold text-xl xs:text-lg'>Start with Our Company First</h2>
-                                <p className='xs:text-sm'>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                                <h2 className='font-bold text-xl xs:text-lg'>Carbon Neutrality Commitment</h2>
+                                <p className='xs:text-sm'>With a dedication to environmental stewardship, we offset our carbon footprint through initiatives like tree planting or renewable energy adoption, striving for a carbon-neutral operation.
                                 </p>
                             </div>
                         </div>
@@ -38,18 +38,18 @@ const EcoFriendly = () => {
                         Organic Store
                     </div>
                     <div className='pt-6 pb-4 xs:pt-3 xs:pb-4'>
-                        <h2 className='font-bold text-xl xs:text-lg'>Start with Our Company First</h2>
-                        <p className='xs:text-sm'>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                        <h2 className='font-bold text-xl xs:text-lg'>Sustainable Sourcing</h2>
+                        <p className='xs:text-sm'>Our company prioritizes eco-friendly practices by sourcing materials responsibly, minimizing environmental impact, and supporting fair trade initiatives for a greener supply chain.
                         </p>
                     </div>
                     <div className=' pb-4  xs:pb-4'>
-                        <h2 className='font-bold text-xl xs:text-lg'>Start with Our Company First</h2>
-                        <p className='xs:text-sm'>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                        <h2 className='font-bold text-xl xs:text-lg'>Packaging Innovation</h2>
+                        <p className='xs:text-sm'>We reduce waste by utilizing eco-conscious packaging materials, such as recyclable, biodegradable, or compostable options, ensuring that our products are delivered sustainably.
                         </p>
                     </div>
                     <div >
-                        <h2 className='font-bold text-xl xs:text-lg'>Start with Our Company First</h2>
-                        <p className='xs:text-sm'>Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+                        <h2 className='font-bold text-xl xs:text-lg'>Carbon Neutrality Commitment</h2>
+                        <p className='xs:text-sm'>With a dedication to environmental stewardship, we offset our carbon footprint through initiatives like tree planting or renewable energy adoption, striving for a carbon-neutral operation.
                         </p>
                     </div>
                 </div>
