@@ -14,8 +14,8 @@ export default function Home() {
       <Products />
       <About />
       <Offer />
-      {/* <EcoFriendly /> */}
-      {/* <Contact /> */}
+      <EcoFriendly />
+      <Contact />
     </section>
   );
 }
