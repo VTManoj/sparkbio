@@ -19,3 +19,9 @@ body {
   font-family: 'Yellowtail', cursive;
   font-style: italic;
 }
+.about-container{
+  background-image: url("../../public/Aboutus.png");
+  background-position: center;
+  background-origin: border-box;
+  background-size: cover;
+}

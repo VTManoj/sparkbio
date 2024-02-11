@@ -1,4 +1,5 @@
 import Image from "next/image";
+import  About  from "./AboutUs/aboutUs";
 import HomePage from "./HomePage/homePage";
 import Products from "./Products/products";
 
@@ -8,6 +9,7 @@ export default function Home() {
 
       <HomePage />
       <Products />
+      <About/>
     </section>
   );
 }
