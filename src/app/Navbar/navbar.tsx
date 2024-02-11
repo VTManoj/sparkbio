@@ -8,7 +8,7 @@ const Navbar = () => {
                 <Image src={Logo} className="w-[7%] h-[80%]" alt="Picture of the author" />
                 <div className='pl-4 font-extrabold text-3xl'>SparkBio</div>
             </div>
-            <div className='w-[50%] flex justify-evenly items-center font-semibold'>
+            <div className='w-[50%] flex justify-evenly items-center font-semibold xs:hidden'>
                 <div className='cursor-pointer'>Home</div>
                 <div className='cursor-pointer'>About</div>
                 <div className='cursor-pointer'>Our Products</div>

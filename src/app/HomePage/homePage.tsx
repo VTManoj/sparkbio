@@ -4,17 +4,17 @@ import HomeIcon from "../../../public/homePage.png"
 
 const HomePage = () => {
     return (
-        <div className='w-full h-screen bg-[#F1EFF0] flex items-center justify-center'>
-            <div className='w-[50%] flex flex-col  justify-center'>
-                <div className='pl-[25%]'>
-                    <div className='font-yellow-tail text-[#68A47F] text-[24px]'>100% Natural </div>
-                    <div className='py-2 text-[42px] font-extrabold'>
+        <div className='w-full h-screen bg-[#F1EFF0] flex items-center justify-center xs:flex-col '>
+            <div className='w-[50%] flex flex-col  justify-center xs:w-full xs:h-[50%]'>
+                <div className='pl-[25%] xs:pl-0 xs:text-center xs:pt-12'>
+                    <div className='font-yellow-tail text-[#68A47F] text-[24px] xs:text-[18px]'>100% Natural </div>
+                    <div className='py-2 text-[42px] font-extrabold  xs:text-[28px]'>
                         Choose the best <br />
                         healthier way<br />
                         of life
                     </div>
                     <div>
-                        <button className='bg-[#EFD372] p-4 rounded-lg w-max'>
+                        <button className='bg-[#EFD372] p-4 rounded-lg w-max xs:p-2'>
                             <span className='inline-block pr-2 font-bold'>Explore Now</span>
                             <span className='inline-block'>
                                 <svg className='w-3' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -25,9 +25,10 @@ const HomePage = () => {
                 </div>
 
             </div>
-            <div className='w-[50%]'>
+            <div className='w-[50%]  xs:w-full xs:h-[50%]'>
                 <Image
                     src={HomeIcon}
+                    className="xs:w-[80%] xs:m-auto"
                     alt="Picture of the author"
                 />
             </div>

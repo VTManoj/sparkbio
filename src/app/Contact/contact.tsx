@@ -4,15 +4,15 @@ import ContactCover from "../../../public/contactCover.jpg"
 
 const Contact = () => {
     return (
-        <div className='h-[80vh] w-full '>
-            <div className=' w-[80%] m-auto h-[40%] pt-16'>
+        <div className='h-[80vh] w-full md:h-[70vh]'>
+            <div className=' w-[80%] m-auto h-[40%] pt-16 md:h-[40%]'>
                 <Image
-                    className='w-full h-full object-cover rounded-full'
+                    className='w-full h-full object-cover rounded-full md:h-[40%]'
                     src={ContactCover}
                     alt="Picture of the author"
                 />
             </div>
-            <div className='flex justify-center h-[60%] items-center'>
+            <div className='flex justify-center h-[60%] items-center md:h-[40%]'>
                 <div className=' w-[30%] h-full flex items-center justify-center'>
                     <div>
                         <h1 className='font-bold text-2xl'>Contact Us</h1>
@@ -33,7 +33,7 @@ const Contact = () => {
 
                     </div>
                 </div>
-                <div className="w-[30%] h-full flex flex-col justify-center ">
+                <div className="w-[30%] h-full flex flex-col justify-start ">
                     <div className='pt-4 font-bold text-2xl text-center'>Sparkbio</div>
                     <div className='pt-4 text-center text-xl'>Simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum simply dummy text of the printing </div>

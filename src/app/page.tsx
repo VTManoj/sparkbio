@@ -9,13 +9,13 @@ import Products from "./Products/products";
 export default function Home() {
   return (
     <section className="w-full h-full">
-      <Navbar />
+      {/* <Navbar />
       <HomePage />
       <Products />
       <About />
-      <Offer />
+      <Offer /> */}
       <EcoFriendly />
-      <Contact />
+      {/* <Contact /> */}
     </section>
   );
 }

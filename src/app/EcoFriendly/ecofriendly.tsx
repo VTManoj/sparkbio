@@ -2,9 +2,9 @@ import React from 'react'
 const EcoFriendly = () => {
     return (
         <div className='ecofriendly w-full h-screen flex'>
-            <div className='ecofriendly-image-continer w-[50%] h-full'></div>
-            <div className='w-[50%] h-full flex items-center'>
-                <div className='w-[70%] h-[60%] box-shadow bg-white rounded-3xl ml-[-10%] p-12'>
+            <div className='ecofriendly-image-continer w-[50%] h-full md:w-[40%]'></div>
+            <div className='w-[50%] h-full flex items-center  md:w-[60%] xs:w-[90%]'>
+                <div className='w-[70%] h-[60%] box-shadow bg-white rounded-3xl ml-[-10%] p-12 md:w-[95%]  md:h-fit xs:w-[95%] xs:h-[90%]'>
                     <div className="font-yellow-tail text-[#68A47F] text-[28px] py-4">Eco Friendly</div>
                     <div className="text-[32px] font-extrabold ">
                         Spark Bio is a Friendly <br />
