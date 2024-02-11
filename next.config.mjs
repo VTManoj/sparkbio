@@ -1,9 +1,11 @@
-/** @type {import('next').NextConfig} */
+// @ts-check
+ 
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-  output: "export",
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
-  },
-};
-export default nextConfig;
+    /* config options here */
+    output: "export",
+  }
+   
+  export default nextConfig
