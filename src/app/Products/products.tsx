@@ -1,7 +1,6 @@
 import { ProductList } from '@/utils/exportsFiles';
 import React from 'react'
 import Image from 'next/image'
-import Product from "../../../public/Product.png"
 
 const Products = () => {
     const SlicedProducts = ProductList.slice(0, 6);
